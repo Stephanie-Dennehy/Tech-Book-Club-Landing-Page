@@ -1,5 +1,46 @@
+@font-face {
+  font-family: 'martian-mono';
+  src: url('/assets/fonts/martian-mono/static/MartianMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'martian-mono';
+  src: url('/assets/fonts/martian-mono/static/MartianMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'martian-mono';
+  src: url('/assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf') format('truetype');
+  font-weight: semi-bold;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --neutral-0: rgb(255, 255, 255);
+  --neutral-100: rgb(250, 245, 243);
+  --neutral-200: rgb(230, 225, 223);
+  --neutral-700: rgb(56, 81, 89);
+  --neutral-900: rgb(6, 38, 48);
+
+  --light-salmon-50: rgb(255, 245, 239);
+  --light-salmon-100: rgb(255, 226, 209);
+  --light-salmon-500: rgb(254, 163, 111);
+}
+
+h1 {
+  font-family: 'martian-mono', sans-serif;
+  font-size: 3.875rem;
+  color: var(--neutral-900);
+  line-height: 120%;
+  letter-spacing: -2px;
 }
