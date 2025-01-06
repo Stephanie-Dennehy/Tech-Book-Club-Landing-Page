@@ -95,6 +95,7 @@ footer {
   background-image: url('./assets/images/pattern-dark-bg.svg');
   color: var(--neutral-0);
   padding: 1rem;
+  border-radius: 16px 16px 0 0;
 }
 
 .footer_section {
